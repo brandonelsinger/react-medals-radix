@@ -24,7 +24,7 @@ function App() {
   // const apiEndpoint = "https://medalsapi.azurewebsites.net/api/country";
   const apiEndpoint = "https://olympic-medals-bje-cngxg7eef8g9fcas.eastus2-01.azurewebsites.net/jwtapi/country";
   const hubEndpoint = "https://olympic-medals-bje-cngxg7eef8g9fcas.eastus2-01.azurewebsites.net/medalsHub";
-  const userEndpoint = "https://jwtswagger.azurewebsites.net/api/user/login";
+  const userEndpoint = "https://jwtswagger-bje-bcdacgdgd9chb7ba.eastus2-01.azurewebsites.net/api/user/login";
   const [connection, setConnection] = useState(null);
   const [countries, setCountries] = useState([]);
   const [user, setUser] = useState({
