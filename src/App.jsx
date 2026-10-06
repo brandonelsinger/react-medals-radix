@@ -323,7 +323,7 @@ function App() {
         {appearance === "dark" ? <MoonIcon /> : <SunIcon />}
       </Button>
       {user.authenticated ? (
-        <Logout onLogout={handleLogout} />
+        <Logout onLogout={handleLogout} user={user} />
       ) : (
         <Login onLogin={handleLogin} />
       )}
